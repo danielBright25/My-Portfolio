@@ -1,0 +1,82 @@
+style.css
+
+
+
+@charset "utf-8";
+
+body{font-family: calibri;
+     font-size: 18px;
+     color:#333333;
+}
+
+html{scroll-behavior: smooth;}
+
+*{padding: 0px
+  margin:0px;}
+
+
+  .container{
+
+  	width: 1000px;
+  	margin:0auto;
+
+  }
+
+  header{background:#403fa4;
+         width: 100%
+         float:left;
+         padding: :20px 0px;
+     margin:-top:0px;
+         border-bottom: #acabfe solid 1px;
+           position:fixed;
+  }
+
+  logo{width:300px;
+       float:left;
+       font-size: 40px;
+       font-weight: :bold;
+        color: #ffffff
+   }
+
+   .menu{width: 100px;
+         float: left;
+     }
+
+     .menu ul {list-style: type:none;
+                text-align: right;
+                 margin-top:15px;
+    }
+
+
+
+    .menu ul li {display: inline;
+                 padding:10px 20px;
+     }
+
+
+     .menu ul li a{ color:#ffffff;
+                    font-size:16px;
+                     text-decoration:none;
+     }
+
+     Section{padding:100px 0px;
+     	     width:100%;
+     	     float:left;
+     }
+
+
+     #about-page{background:# 5352d4;
+                   color:#ffffff
+                   clear:both
+                   margin-top:90px;
+     }
+
+     #about-page h1{ color:#ffffff;
+                     text-align:left;
+                     margin-bottom:20px;
+     }
+
+     #about-page.fa{font-size:24px;
+                     color:#ffffff
+                      margin:10px 5px;
+     }        
